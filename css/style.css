@@ -26,6 +26,7 @@ body {
     radial-gradient(circle at top left, rgba(135, 219, 40, 0.18), transparent 28%),
     linear-gradient(135deg, #f8fff3 0%, #eef9db 100%);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 img {
@@ -351,6 +352,8 @@ h2 {
   border-radius: 18px;
   object-fit: cover;
   max-height: 240px;
+  width: min(100%, 20rem);
+  margin: 0 auto;
 }
 
 .product-info h3 {
